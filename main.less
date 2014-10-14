@@ -1,0 +1,142 @@
+@pi: 3.14159;
+@radius: 40;
+@gap-size: 5/6;
+
+@circumference: 2 * @radius * @pi;
+
+@dasharray1: 0 @circumference;
+@dasharray2: @circumference * @gap-size, @circumference * (1 - @gap-size);
+
+.keyframes(@name, @rules) {
+	@-webkit-keyframes @name { @rules(); }
+	@-moz-keyframes @name { @rules(); }
+	@-ms-keyframes @name { @rules(); }
+	@-o-keyframes @name { @rules(); }
+	@keyframes @name { @rules(); }
+}
+
+.animation(@params) {
+	-webkit-animation: @params;
+	-moz-animation: @params;
+	-ms-animation: @params;
+	-o-animation: @params;
+	animation: @params;
+}
+
+.frame-data(@n) {
+	@offset: floor(@n / 2) * (@circumference * @gap-size);
+	stroke-dashoffset: -@offset;
+}
+
+.frame-data(@n) when (mod(@n, 2) = 0) {
+	stroke-dasharray: @dasharray1;
+}
+
+.frame-data(@n) when (mod(@n, 2) = 1) {
+	stroke-dasharray: @dasharray2;
+}
+
+.keyframe-def(@max, @n) {
+	@percent: percentage(@n / @max);
+
+	@{percent} {
+		.frame-data(@n);
+	}
+}
+
+.progress(@max, @n: 0) when (@n <= @max) {
+	.keyframe-def(@max, @n);
+
+	.progress(@max, @n + 1);
+}
+
+.color-moment(@max, @n, @rules) {
+	@lower: percentage( @n / @max + 0.02 );
+	@upper: percentage( (@n + 1) / @max - 0.02 );
+
+	@{lower} {
+		@rules();
+	}
+
+	@{upper} {
+		@rules();
+	}
+}
+
+.color-loop(@colorList, @n: 1) when (@n <= length(@colorList)) {
+	@color: extract(@colorList, @n);
+
+	.color-moment(length(@colorList), @n - 1, {
+		stroke: @color;
+	});
+
+	.color-loop(@colorList, @n + 1);
+}
+
+.color-anim(@colorList) {
+	@first: extract(@colorList, 1);
+	@last: extract(@colorList, length(@colorList));
+	@mixed: average(@first, @last);
+
+	0% {
+		color: @mixed;
+	}
+
+	.color-loop(@colors);
+
+	100% {
+		color: @mixed;
+	}
+}
+
+.keyframes(circley, {
+	.progress(12);
+});
+
+.keyframes(rotaty, {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+});
+
+.keyframes(colored, {
+	@colors: #5677fc, #e51c23, #ffc107, #259b24;
+	// @colors: blue, red, yellow, green;
+
+	.color-anim(@colors);
+});
+
+body {
+	margin: 0;
+	width: 100vw;
+	height: 100vh;
+}
+
+.contents {
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+}
+
+svg#main circle {
+	fill: none;
+
+	stroke: #5677fc;
+	stroke-linecap: round;
+	stroke-width: 18;
+
+	.animation(circley 8s ease infinite, rotaty 2.2s linear infinite;);
+	transform-origin: center center;
+
+	&.colored {
+		.animation(circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;);
+	}
+}

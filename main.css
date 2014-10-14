@@ -1,157 +1,509 @@
 @-webkit-keyframes circley {
-	0% {
-		stroke-dashoffset: 0;
-		stroke-dasharray: 0 314.159;
-	}
-
-	8.3% {
-		stroke-dashoffset: 0;
-		stroke-dasharray: 261.79 52.35;
-	}
-
-	16.6% {
-		stroke-dashoffset: -261.79;
-		stroke-dasharray: 0 314.159;
-	}
-
-	25% {
-		stroke-dashoffset: -261.79;
-		stroke-dasharray: 261.79 52.35;
-	}
-
-	33.3% {
-		stroke-dashoffset: -523.58;
-		stroke-dasharray: 0 314.159;
-	}
-
-	41.6% {
-		stroke-dashoffset: -523.58;
-		stroke-dasharray: 261.79 52.35;
-	}
-
-	50% {
-		stroke-dashoffset: -785.37;
-		stroke-dasharray: 0 314.159;
-	}
-
-	58.3% {
-		stroke-dashoffset: -785.37;
-		stroke-dasharray: 261.79 52.35;
-	}
-
-	66.6% {
-		stroke-dashoffset: -1047.16;
-		stroke-dasharray: 0 314.159;
-	}
-
-	75% {
-		stroke-dashoffset: -1047.16;
-		stroke-dasharray: 261.79 52.35;
-	}
-
-	83.3% {
-		stroke-dashoffset: -1308.95;
-		stroke-dasharray: 0 314.159;
-	}
-
-	91.6% {
-		stroke-dashoffset: -1308.95;
-		stroke-dasharray: 261.79 52.35;
-	}
-
-	100% {
-		stroke-dashoffset: -1570.74;
-		stroke-dasharray: 0 314.159;
-	}
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 251.3272;
+  }
+  8.33333333% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  16.66666667% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 0 251.3272;
+  }
+  25% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  33.33333333% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 0 251.3272;
+  }
+  41.66666667% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  50% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 0 251.3272;
+  }
+  58.33333333% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  66.66666667% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 0 251.3272;
+  }
+  75% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  83.33333333% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 0 251.3272;
+  }
+  91.66666667% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  100% {
+    stroke-dashoffset: -1256.636;
+    stroke-dasharray: 0 251.3272;
+  }
 }
-
+@-moz-keyframes circley {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 251.3272;
+  }
+  8.33333333% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  16.66666667% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 0 251.3272;
+  }
+  25% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  33.33333333% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 0 251.3272;
+  }
+  41.66666667% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  50% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 0 251.3272;
+  }
+  58.33333333% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  66.66666667% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 0 251.3272;
+  }
+  75% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  83.33333333% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 0 251.3272;
+  }
+  91.66666667% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  100% {
+    stroke-dashoffset: -1256.636;
+    stroke-dasharray: 0 251.3272;
+  }
+}
+@-ms-keyframes circley {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 251.3272;
+  }
+  8.33333333% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  16.66666667% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 0 251.3272;
+  }
+  25% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  33.33333333% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 0 251.3272;
+  }
+  41.66666667% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  50% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 0 251.3272;
+  }
+  58.33333333% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  66.66666667% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 0 251.3272;
+  }
+  75% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  83.33333333% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 0 251.3272;
+  }
+  91.66666667% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  100% {
+    stroke-dashoffset: -1256.636;
+    stroke-dasharray: 0 251.3272;
+  }
+}
+@-o-keyframes circley {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 251.3272;
+  }
+  8.33333333% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  16.66666667% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 0 251.3272;
+  }
+  25% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  33.33333333% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 0 251.3272;
+  }
+  41.66666667% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  50% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 0 251.3272;
+  }
+  58.33333333% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  66.66666667% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 0 251.3272;
+  }
+  75% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  83.33333333% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 0 251.3272;
+  }
+  91.66666667% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  100% {
+    stroke-dashoffset: -1256.636;
+    stroke-dasharray: 0 251.3272;
+  }
+}
+@keyframes circley {
+  0% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0 251.3272;
+  }
+  8.33333333% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  16.66666667% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 0 251.3272;
+  }
+  25% {
+    stroke-dashoffset: -209.43933333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  33.33333333% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 0 251.3272;
+  }
+  41.66666667% {
+    stroke-dashoffset: -418.87866667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  50% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 0 251.3272;
+  }
+  58.33333333% {
+    stroke-dashoffset: -628.318;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  66.66666667% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 0 251.3272;
+  }
+  75% {
+    stroke-dashoffset: -837.75733333;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  83.33333333% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 0 251.3272;
+  }
+  91.66666667% {
+    stroke-dashoffset: -1047.19666667;
+    stroke-dasharray: 209.43933333, 41.88786667;
+  }
+  100% {
+    stroke-dashoffset: -1256.636;
+    stroke-dasharray: 0 251.3272;
+  }
+}
 @-webkit-keyframes rotaty {
-	0% {
-		transform: rotate(0deg);
-	}
-
-	100% {
-		transform: rotate(360deg);
-	}
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
-
+@-moz-keyframes rotaty {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-ms-keyframes rotaty {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@-o-keyframes rotaty {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotaty {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 @-webkit-keyframes colored {
-	0% {
-		stroke: #9e4a90;
-	}
-
-	/* Blue */
-	2% {
-		stroke: #e51c23;
-	}
-
-	23% {
-		stroke: #e51c23;
-	}
-
-	/* Yellow/Orange */
-	27% {
-		stroke: #ffc107;
-	}
-
-	48% {
-		stroke: #ffc107;
-	}
-
-	/* Green */
-	52% {
-		stroke: #259b24;
-	}
-
-	73% {
-		stroke: #259b24;
-	}
-
-	77% {
-		stroke: #5677fc;
-	}
-
-	/* Red */
-	98% {
-		stroke: #5677fc;
-	}
-
-	100% {
-		stroke: #9e4a90;
-	}
+  0% {
+    color: #3e8990;
+  }
+  2% {
+    stroke: #5677fc;
+  }
+  23% {
+    stroke: #5677fc;
+  }
+  27% {
+    stroke: #e51c23;
+  }
+  48% {
+    stroke: #e51c23;
+  }
+  52% {
+    stroke: #ffc107;
+  }
+  73% {
+    stroke: #ffc107;
+  }
+  77% {
+    stroke: #259b24;
+  }
+  98% {
+    stroke: #259b24;
+  }
+  100% {
+    color: #3e8990;
+  }
 }
-
+@-moz-keyframes colored {
+  0% {
+    color: #3e8990;
+  }
+  2% {
+    stroke: #5677fc;
+  }
+  23% {
+    stroke: #5677fc;
+  }
+  27% {
+    stroke: #e51c23;
+  }
+  48% {
+    stroke: #e51c23;
+  }
+  52% {
+    stroke: #ffc107;
+  }
+  73% {
+    stroke: #ffc107;
+  }
+  77% {
+    stroke: #259b24;
+  }
+  98% {
+    stroke: #259b24;
+  }
+  100% {
+    color: #3e8990;
+  }
+}
+@-ms-keyframes colored {
+  0% {
+    color: #3e8990;
+  }
+  2% {
+    stroke: #5677fc;
+  }
+  23% {
+    stroke: #5677fc;
+  }
+  27% {
+    stroke: #e51c23;
+  }
+  48% {
+    stroke: #e51c23;
+  }
+  52% {
+    stroke: #ffc107;
+  }
+  73% {
+    stroke: #ffc107;
+  }
+  77% {
+    stroke: #259b24;
+  }
+  98% {
+    stroke: #259b24;
+  }
+  100% {
+    color: #3e8990;
+  }
+}
+@-o-keyframes colored {
+  0% {
+    color: #3e8990;
+  }
+  2% {
+    stroke: #5677fc;
+  }
+  23% {
+    stroke: #5677fc;
+  }
+  27% {
+    stroke: #e51c23;
+  }
+  48% {
+    stroke: #e51c23;
+  }
+  52% {
+    stroke: #ffc107;
+  }
+  73% {
+    stroke: #ffc107;
+  }
+  77% {
+    stroke: #259b24;
+  }
+  98% {
+    stroke: #259b24;
+  }
+  100% {
+    color: #3e8990;
+  }
+}
+@keyframes colored {
+  0% {
+    color: #3e8990;
+  }
+  2% {
+    stroke: #5677fc;
+  }
+  23% {
+    stroke: #5677fc;
+  }
+  27% {
+    stroke: #e51c23;
+  }
+  48% {
+    stroke: #e51c23;
+  }
+  52% {
+    stroke: #ffc107;
+  }
+  73% {
+    stroke: #ffc107;
+  }
+  77% {
+    stroke: #259b24;
+  }
+  98% {
+    stroke: #259b24;
+  }
+  100% {
+    color: #3e8990;
+  }
+}
 body {
-	margin: 0;
-	width: 100vw;
-	height: 100vh;
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
 }
-
 .contents {
-	width: 100%;
-	height: 100%;
-
-	display: flex;
-	justify-content: center;
-	align-content: center;
-	align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
 }
-
 svg#main circle {
-	fill: none;
-
-	stroke: #5677fc;
-	stroke-linecap: round;
-	stroke-width: 18;
-
-	-webkit-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
-	transform-origin: center center;
+  fill: none;
+  stroke: #5677fc;
+  stroke-linecap: round;
+  stroke-width: 18;
+  -webkit-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
+  -moz-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
+  -ms-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
+  -o-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
+  animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
+  transform-origin: center center;
 }
-
 svg#main circle.colored {
-	-webkit-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
+  -webkit-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
+  -moz-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
+  -ms-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
+  -o-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
+  animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
 }
-
 svg#main circle.colored.slow-as-fuck {
-	-webkit-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
+  -webkit-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
+  -moz-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
+  -ms-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
+  -o-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
+  animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
 }
