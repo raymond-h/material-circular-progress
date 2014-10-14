@@ -1,6 +1,7 @@
 @pi: 3.14159;
 @radius: 40;
 @gap-size: 5/6;
+@width: (8 / 23) * @radius;
 
 @circumference: 2 * @radius * @pi;
 
@@ -131,7 +132,7 @@ svg#main circle {
 
 	stroke: #5677fc;
 	stroke-linecap: round;
-	stroke-width: 18;
+	stroke-width: @width;
 
 	.animation(circley 8s ease infinite, rotaty 2.2s linear infinite;);
 	transform-origin: center center;

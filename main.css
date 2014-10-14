@@ -485,7 +485,7 @@ svg#main circle {
   fill: none;
   stroke: #5677fc;
   stroke-linecap: round;
-  stroke-width: 18;
+  stroke-width: 13.91304348;
   -webkit-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
   -moz-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
   -ms-animation: circley 8s ease infinite, rotaty 2.2s linear infinite;
@@ -499,11 +499,4 @@ svg#main circle.colored {
   -ms-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
   -o-animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
   animation: circley 8s ease infinite, rotaty 2.2s linear infinite, colored 5.3333s ease infinite;
-}
-svg#main circle.colored.slow-as-fuck {
-  -webkit-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
-  -moz-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
-  -ms-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
-  -o-animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
-  animation: circley 216s ease infinite, rotaty 59.4s linear infinite, colored 144s ease infinite;
 }
